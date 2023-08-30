@@ -5,18 +5,39 @@
 }
 
 .main-content {
-  padding-top: 50px;
+  padding-top: 107px;
+}
+
+.main-content-items li::before {
+  content: "\2022";
+  color: #61DAFB;
+  margin-right: 1em;
+  font-weight: bold;
+}
+
+.main-content-items > li {
+  list-style: none;
+  font-size: 16px;
+  padding: 15px;
+  font-weight: 100;
+
 }
 
 
 .header {
-  background-color: rgb(233, 232, 232);
+  background-color: #21222A;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 80px;
-  box-shadow: 0px 10px 10px rgb(239, 236, 236);
+  height: 91px;
+  
+}
+
+.content-title {
+  font-weight: 700;
+  letter-spacing: -1.953px;
+  font-size: 39.06px;
 }
 
 .nav {
@@ -30,9 +51,10 @@
 }
 
 .react-logo {
-  width: 65px;
-  padding-top: 5px;
-  padding-left: 5px;
+  width: 28.93px;
+  padding-top: 31px;
+  padding-left: 26px;
+  padding-bottom: 31px;
 }
 
 .footer {
