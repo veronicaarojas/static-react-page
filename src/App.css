@@ -1,11 +1,5 @@
-.nav-items {
-  padding-left: 5px;
-  list-style: none;
-  display: flex;
-}
-
 .main-content {
-  padding-top: 107px;
+  padding-top: 148px;
 }
 
 .main-content-items li::before {
@@ -24,15 +18,6 @@
 }
 
 
-.header {
-  background-color: #21222A;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 91px;
-  
-}
 
 .content-title {
   font-weight: 700;
@@ -42,20 +27,38 @@
 
 .nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  background-color: #21222A;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 91px;
+  padding: 30px 25px;
 }
 
-.nav-items > li {
-  padding: 10px;
-}
-
-.react-logo {
+.nav > img {
   width: 28.93px;
   padding-top: 31px;
   padding-left: 26px;
   padding-bottom: 31px;
+  margin-right: 7px;
 }
+
+.nav > h3 {
+  font-weight: 700;
+  font-size: 23px;
+  color: #61DAFB;
+  margin-right: auto;
+}
+
+.nav > h4 {
+  color: #DEEBF8;
+  font-size: 16px;
+}
+
+
+
 
 .footer {
   position: fixed;
