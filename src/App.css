@@ -1,20 +1,25 @@
 .main-content {
   padding-top: 148px;
+  padding-left: 27px;
+  padding-right: 27px;
 }
 
-.main-content-items li::before {
+.main-content-items li::marker {
   content: "\2022";
   color: #61DAFB;
   margin-right: 1em;
-  font-weight: bold;
+  font-size: 25px;
+  
 }
 
 .main-content-items > li {
   list-style: none;
   font-size: 16px;
-  padding: 15px;
+  padding: 10px;
   font-weight: 100;
-
+  padding-left: 27px;
+  padding-right: 27px;
+  max-width: 400px;
 }
 
 
