@@ -1,3 +1,13 @@
+main {
+  width: 100%;
+  background-image: url('src/assets/react-large.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 140px ;
+  
+}
+
+
 .main-content {
   padding-top: 148px;
   padding-left: 27px;
