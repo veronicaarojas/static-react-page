@@ -8,7 +8,7 @@ function App() {
   const [ darkMode, setDarkMode] = useState(false);
   
 
-  function toggleDarkMode(prev) {
+  function toggleDarkMode() {
     setDarkMode(prev => !prev);
   }
 
