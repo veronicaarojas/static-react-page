@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Header() {
+export default function Header({ toggleDarkMode, darkMode }) {
   return (
     <header>
     <nav className='nav'>
@@ -13,7 +13,7 @@ export default function Header() {
         <p className='toggler--light'>Light</p>
         <div
         className='toggler--slider'
-        // onClick={toggleDarkMode}
+        onClick={toggleDarkMode}
         >
           <div className='toggler--slider--circle'></div>
         </div>

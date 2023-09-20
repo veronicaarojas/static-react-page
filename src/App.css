@@ -6,6 +6,9 @@
   background-size: 140px ;
   background-color: white;
   color: #2B283A;
+  padding-top: 148px;
+  padding-left: 27px;
+  padding-right: 27px;
 } 
 
 main.dark {
@@ -14,11 +17,6 @@ main.dark {
   color: white;
 }
 
-.main-content {
-  padding-top: 148px;
-  padding-left: 27px;
-  padding-right: 27px;
-}
 
 .main-content-items li::marker {
   content: "\2022";
@@ -46,7 +44,7 @@ main.dark {
   font-size: 39.06px;
 }
 
-.nav {
+nav {
   display: flex;
   align-items: center;
   background-color: white;
@@ -63,7 +61,7 @@ nav.dark {
   background-color: #21222A;
 }
 
-.nav > img {
+nav > img {
   width: 28.93px;
   padding-top: 31px;
   padding-left: 26px;
@@ -71,17 +69,14 @@ nav.dark {
   margin-right: 7px;
 }
 
-.nav > h3 {
+nav > h3 {
   font-weight: 700;
   font-size: 23px;
   color: #61DAFB;
   margin-right: auto;
 }
 
-.nav > h4 {
-  color: #DEEBF8;
-  font-size: 16px;
-}
+
 
 .toggler {
   display: flex;
