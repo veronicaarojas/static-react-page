@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Header({ toggleDarkMode, darkMode }) {
   return (
-    <header>
-    <nav className='nav'>
+    <header  >
+    <nav className={darkMode ? "dark" : ""} >
       <img
       src="src/assets/react.svg"
       alt="react logo"

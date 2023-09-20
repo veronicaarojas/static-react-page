@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Footer() {
+export default function Footer({darkMode}) {
   return (
-    <footer className='footer'>
+    <footer className={darkMode ? "dark" : ""} >
       <small>© 2023 Rojas development. All rights reserved.</small>
     </footer>
   )

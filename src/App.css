@@ -1,3 +1,6 @@
+
+ 
+ 
  main {
   width: 100%;
   background-image: url('src/assets/react-large-light.svg');
@@ -141,7 +144,7 @@ nav.dark .toggler--slider {
 
 
 
-.footer {
+footer {
   position: fixed;
   display: flex;
   justify-content: center;
@@ -151,3 +154,8 @@ nav.dark .toggler--slider {
   left: 0;
   right: 0;
  } 
+
+ footer.dark {
+  color: #FFFFFF;
+  background-color: #282D35;
+ }
